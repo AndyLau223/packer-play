@@ -1,4 +1,5 @@
 #!/bin/bash
+# source from: https://developer.hashicorp.com/packer/tutorials/docker-get-started/docker-get-started-build-image
 
 echo "it's going to create directory packer-tutorial"
 mkdir packer-tutorial
