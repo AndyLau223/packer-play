@@ -52,3 +52,10 @@ docker images
 
 echo "After executed above command, you can remove the images by executing following command, replace IMAGE_ID with actual image id."
 echo "docker rmi IMAGE_ID"
+
+echo "Starting to clean up the hcl files we just created..."
+cd ..
+pwd
+rm -r packer-tutorial 
+ls -l
+echo "All done!"
