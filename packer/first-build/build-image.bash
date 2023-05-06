@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Packer is used to build images
 # source from: https://developer.hashicorp.com/packer/tutorials/docker-get-started/docker-get-started-build-image
 # Note that: Be careful ! This script will delete all iamges after it's done for space saving purpose.
 
