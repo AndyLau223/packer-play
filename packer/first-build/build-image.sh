@@ -2,7 +2,6 @@
 # source from: https://developer.hashicorp.com/packer/tutorials/docker-get-started/docker-get-started-build-image
 # Note that: Be careful ! This script will delete all iamges after it's done for space saving purpose.
 
-chmod +x ./docker-ubuntu.pkr.hcl
 
 echo "initiating packer environment...."
 packer init . 
