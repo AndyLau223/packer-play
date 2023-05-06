@@ -13,4 +13,7 @@ terraform apply -auto-approve
 
 terraform show
 
+terraform output
+
 terraform destroy -auto-approve
+
